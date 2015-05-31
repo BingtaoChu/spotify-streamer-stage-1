@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutArtistResult">
+
+    <ImageView
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:minWidth="80dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imgArtistIcon"
+        android:layout_margin="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Missing artist name"
+        android:layout_marginTop="36dp"
+        android:textSize="20sp"
+        android:id="@+id/txtArtistName" />
+</LinearLayout>
